@@ -4,3 +4,6 @@ In the next cell, we have each feature's missing value percentage. The guideline
 
 for the next seven cells we fill missing values. there are many ways to fill missing values like regression, mean and average of that feature. but in this file the features are information about a person and the ID of each person is unique and also some people has multiple absence so we can use the previous sample to fill empty cells. Fortunately this technique helps me to fill all the null values. we can run cell 40 again to see how many missing values remained. if there is still some we can use average to fill that.
 then we can use quartile to omit outliers. the first and last quartile are deleted and only the two interquartile is remained unchanged(not deleted).
+in the next 11 cells, the target column and soe randome features have chosen to plot.
+in the next cell, an output file will produce.
+the next cell would delete all the samples which has meaningless target column. a zero target feature means the person has abcense which is less than 1 hour and it is not important for us.
