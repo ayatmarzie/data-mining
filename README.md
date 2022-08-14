@@ -19,3 +19,11 @@ Then we use the elbow method to find the best k( optimized k) for kmean, which i
 #test cell
 Using PCA, data was shown in 2 dimensions, and each cluster was printed with unique color.
 We evaluate the performance of both supervised and unsupervised.
+#PTJ2_ayat.ipynb
+From the first to In[9] it is preprocessing mentioned above.
+Then, we normalize data using zscore.
+Then we categorize the target column.
+In the two following cells, the data had been split into two train and test categories without any library.
+The k-NN algorithm without using the sklearn library from(
+scratch) implemented and the k-NN we implemented to the data applied, then  the k-NN to the data using applied sklearn and the results compared. Several values for k tested and different results reporte
+The precision calculated, recall and accuracy criteria from the model result on the test data and the results interpretd. Matrix Confusion printed.
